@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>FirstApp</title>
+         
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,5 +11,9 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
+    <form>
+    <button type="submit" class="btn btn-primary btn-lg btnblock"
+[disabled]="form.invalid">Submit</button>
+    </form>
 </body>
 </html>
